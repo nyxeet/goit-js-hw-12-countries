@@ -3,6 +3,10 @@ import fetchCountries from './fetchCountries';
 import refs from './refs';
 import _, { debounce } from 'lodash';
 import updateArticlesMarkup from './update-articles';
+import { info, error } from "@pnotify/core";
+import "@pnotify/core/dist/PNotify.css";
+import "@pnotify/core/dist/BrightTheme.css";
+
 
 refs.searchForm.addEventListener(
   'input',
