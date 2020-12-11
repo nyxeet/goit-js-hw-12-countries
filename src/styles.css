@@ -18,3 +18,34 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+.search-form {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.articles {
+  width: 680px;
+  list-style: none;
+  text-decoration: none;
+}
+.text {
+  width: 50%;
+  margin-top: 30px;
+}
+.name {
+  text-align: center;
+}
+.flex1 {
+  display: flex;
+}
+.capital {
+  margin-bottom: 30px;
+}
+.population {
+  margin-bottom: 30px;
+}
+.languages {
+  padding: 0;
+}
+.spanitem {
+  margin-left: 50px;
+}

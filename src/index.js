@@ -8,6 +8,6 @@ refs.searchForm.addEventListener(
   'input',
   _.debounce(() => {
     const inputValue = refs.searchForm.value;
-    fetchCountries(inputValue).then(console.log).then(updateArticlesMarkup);
+    fetchCountries(inputValue).then(updateArticlesMarkup);
   }, 500),
 );
