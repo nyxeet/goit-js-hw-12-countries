@@ -1,5 +1,5 @@
-import countryTpl from './templates/full-country.hbs';
-import listTpl from './templates/list-country.hbs'
+import countryTpl from '../templates/full-country.hbs';
+import listTpl from '../templates/list-country.hbs'
 import refs from './refs';
 import { info, error } from "@pnotify/core";
 import "@pnotify/core/dist/PNotify.css";

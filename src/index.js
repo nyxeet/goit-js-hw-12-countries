@@ -1,11 +1,8 @@
 import './styles.css';
-import fetchCountries from './fetchCountries';
-import refs from './refs';
+import fetchCountries from './js/fetchCountries';
 import _, { debounce } from 'lodash';
-import updateArticlesMarkup from './update-articles';
-import { info, error } from "@pnotify/core";
-import "@pnotify/core/dist/PNotify.css";
-import "@pnotify/core/dist/BrightTheme.css";
+import updateArticlesMarkup from './js/update-articles';
+import refs from './js/refs'
 
 
 refs.searchForm.addEventListener(
